@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/dotenv": "^6.2",
+        "altorouter/altorouter": "^2.0"
+    }
+}
