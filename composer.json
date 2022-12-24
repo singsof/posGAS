@@ -2,7 +2,7 @@
     "require": {
         "symfony/dotenv": "^6.2",
         "altorouter/altorouter": "^2.0",
-        "eftec/bladeone": "^4.7",
-        "jenssegers/blade": "^1.4"
+        "eftec/bladeone": "^4.7"
+       
     }
 }

@@ -237,7 +237,7 @@ class BladeOne
      * @param string       $compiledPath If null then it uses (caller_folder)/compiles
      * @param int          $mode         =[BladeOne::MODE_AUTO,BladeOne::MODE_DEBUG,BladeOne::MODE_FAST,BladeOne::MODE_SLOW][$i]
      */
-    public function __construct($templatePath = null, $compiledPath = null, $mode = 0)
+    public function __construct($templatePath = '/../views', $compiledPath = '/../cache', $mode = 0)
     {
         if ($templatePath === null) {
             $templatePath = \getcwd() . '/views';
